@@ -71,11 +71,9 @@ mysql --version
 ## 2. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/Employee-Payroll-Management-System.git
+git clone https://github.com/Anuragp2077/Employee-Payroll-Management-System.git
 cd Employee-Payroll-Management-System
 ```
-
-Replace `<your-username>` with your GitHub username.
 
 ---
 
