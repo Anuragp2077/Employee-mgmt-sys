@@ -85,12 +85,6 @@ Run:
 pip install mysql-connector-python pandas matplotlib
 ```
 
-Or, if your `requirements.txt` is configured as a standard pip requirements file:
-
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 # 🗄️ Setting Up MySQL
@@ -100,8 +94,8 @@ The application requires a MySQL database before it can start.
 Create the database:
 
 ```sql
-CREATE DATABASE payroll_management_db;
-USE payroll_management_db;
+CREATE DATABASE employee_system;
+USE employee_system;
 ```
 
 Then create the employee table:
@@ -155,31 +149,9 @@ DB_CONFIG = {
     "host": "localhost",
     "user": "root",
     "password": "YOUR_PASSWORD",
-    "database": "payroll_management_db"
+    "database": "employee_system"
 }
 ```
-
-### ⚠️ Important
-
-The supplied SQL setup uses:
-
-```text
-payroll_management_db
-```
-
-while the current `APP.py` uses:
-
-```text
-employee_system
-```
-
-These need to match before the application will work correctly.
-
-Also, **do not upload your real MySQL password to GitHub**.
-
-For a public repository, use environment variables instead of hard-coding credentials.
-
----
 
 # ▶️ Run the Application
 
