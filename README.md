@@ -6,21 +6,6 @@ It provides a simple graphical interface for managing employee records, calculat
 
 ---
 
-## 🖼️ Preview
-
-> Add your application screenshots here.
-
-```text
-screenshots/
-├── employee-management.png
-├── dashboard.png
-└── payroll.png
-```
-
-Example:
-
----
-
 ## ✨ What does this project do?
 
 This application is designed to make basic employee and payroll management easier.
